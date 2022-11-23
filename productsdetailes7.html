@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="./css/style5.css">
+    <title>Product Details</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+
+        <header>
+            <div class="hamburger-logo-group">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+               
+
+                <nav class="menu hidden">
+                    <div class="slide-menu">
+                        <img id="btnMenuClose" src="./images/icon-close.svg" alt="icon close">
+
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="cart-avatar-group">
+                <div class="btnCart">
+                
+                    <div class="cart-count hidden">3</div>
+                </div>
+
+
+            </div>
+
+            <div class="cart hidden">
+                <div class="cart-header">Cart</div>
+                <div class="products-in-cart">
+                    <!-- <div class="item">
+                        <img class="product-img" src="./images/image-product-1-thumbnail.jpg" alt="product 1 thumb">
+                        <div class="details">
+                            <div class="product-name">Autumn Limited Edition...</div>
+                            <div class="price-group">
+                                <div class="price">$125.00</div> x
+                                <div class="count">3</div>
+                                <div class="total-amount">$375.00</div>
+                            </div>
+                        </div>
+                        <img id="btnDelete" src="./images/icon-delete.svg" alt="icon delete">
+                    </div> -->
+                </div>
+                <div class="msg-empty">Your cart is empty.</div>
+                <div class="checkout hidden">Checkout</div>
+            </div>
+        </header>
+
+        <div class="content">
+
+            <!-- Lightbox -->
+            <section class="lightbox">
+                <img class="product-hero" src="./img/sp111.jpg" alt="image product">
+                <div class="previous arrow">
+                    <img src="./images/icon-previous.svg" alt="icon previous">
+                </div>
+                <div class="next arrow">
+                    <img src="./img/icon-next.svg" alt="icon next">
+                </div>
+                <div class="thumb-gallery">
+                    <div class="pic active">
+                        <img src="./img/fb5.jpg" alt="thumb-1">
+                    </div>
+                    <div class="pic">
+                        <img src="./img/fb7.jpg" alt="thumb-2">
+                    </div>
+                    <div class="pic">
+                        <img src="./img/fb8.jpg" alt="thumb-3">
+                    </div>
+                    <div class="pic">
+                        <img src="./img/fb9.jpg" alt="thumb-4">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product -->
+            <section class="product">
+                <div class="company-name">Samsung company</div>
+                <div class="title">Samsung Refrigerator 564 L Door (Black Glass Door)</div>
+                <div class="description">
+                    Wi-Fi Side-by-Side Refrigerator with Inverter Compressor and Auto Defrost technology that prevents excess ice build up automatically | Control refrigerator and freezer temperatures remotely using the Miraie app
+                    592 L capacity: Suitable for the daily requirements of a family with 5 or more members | Double Vegetable Box: Store more vegetables and fruits conveniently without worrying about space
+                </div>
+                <div class="price-wrapper">
+                    <div class="group">
+                        <div class="price">Rs. 49,999</div>
+                        <div class="discount">35%</div>
+                    </div>
+                    <div class="old-price">Rs. 60,990</div>
+                </div>
+
+                <div class="count-btn-group">
+                    <div class="counter-wrapper">
+                        <img id="btnMinus" src="./images/icon-minus.svg" alt="icon minus">
+                        <div class="counter">1</div>
+                        <img id="btnPlus" src="./images/icon-plus.svg" alt="">
+                    </div>
+
+                    <div class="btn">
+                        <img src="./images/icon-cart.svg" alt="icon cart">
+                       
+                        <a href="cart.html" style="text-decoration: none;"><b style="color: white;">Add to Cart</b></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="overlay hidden">
+            <div class="btnClose">
+                <img id="btnOverlayClose" src="./images/icon-close.svg" alt="lightbox close">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
